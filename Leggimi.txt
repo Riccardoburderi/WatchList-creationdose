@@ -1,0 +1,14 @@
+" npm i "per installare i pacchetti,
+" npm start " per lanciare lo script
+
+Credenziali di accesso : {
+email: admin@example.com
+password : password123
+}
+
+
+ps:il progetto non è completo, manca la gestione effettiva della lista che per 
+mancanza di tempo ho rimandato all ultimo e non sono riuscito ad implementare!
+Ho comunque piacere a discutere riguardo il codice per avere un vostro feedback.
+
+Grazie :)

@@ -1,0 +1,63 @@
+.form-inline{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.form-inline-1{
+    position: absolute;
+    left:256px;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.btn-success{
+    margin-top:0px!important;
+    margin-bottom:0px!important;
+    max-width:163px;
+}
+
+input{
+    max-width: 163px;
+}
+/* Spostiamo la ricerca per schermi piccoli */
+
+@media only screen and (max-width: 993px) {
+    .form-inline{
+        position: absolute;
+        right: 50px;
+        top:100px;
+        z-index:1 ;
+        display: flex;
+        flex-direction: row;
+    }
+    .form-inline-1{
+        position: absolute;
+        top: calc(100vh + 30px);
+        right: 50px;
+        left: 50px;
+        display: flex;
+        flex-direction: row;
+        }
+
+    input{
+        max-width:100%!important
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    .form-inline{
+        position: absolute;
+        right: 50px;
+        top:105px;
+        z-index:1;
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+  }
+

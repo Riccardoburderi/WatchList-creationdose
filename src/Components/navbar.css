@@ -1,0 +1,28 @@
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    vertical-align: middle;
+    background-color:cadetblue ;
+}
+
+
+.nav-item{
+    display: flex;
+    margin:auto;
+    color:black;
+    cursor: pointer;
+    text-decoration: none; 
+    font-size:40px;   
+}
+.nav p:hover{
+    font-weight: bolder;
+    color:rgb(255, 0, 0);
+}
+.active{
+    padding: 5px;
+    font-weight: bolder;
+    background-color: cadetblue;
+    color:white!important;
+    border-radius: 3%;
+}
